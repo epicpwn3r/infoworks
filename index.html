@@ -23,26 +23,20 @@
     <div style="display:flex;justify-content:center;">
       <img style ="max-width: 500px;width:75%;height:75%;margin:15% 0%;"src="img\Logo_Extended_2_Alpha.png" alt="">
     </div>
-    <!-- <h2 style ="width:50%;margin:25%;margin-top:0;text-align:center;text-transform:uppercase;font-size:2em;color:white;">Serviços de informática</h2> -->
   </header>
 
-
-
-
   <body>
-    <!-- down arrow -->
+    <!-- Down arrow -->
     <div  class="arrow bounce" style="position:fixed;width:100%;bottom:0;">
-
         <svg id="downarrowsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="width:35px;fill:rgba(4, 92, 97, 0.65);"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M169.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 274.7 54.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
     </div>
 
-
     <div class="parallax img2" id="inicio">
       <br>
-          <mark style="background-color:white; padding: 0px 12px; text-transform:uppercase;">
-            bem vindo à infoworks
-          </mark>
-          <br><br>
+      <mark style="background-color:white; padding: 0px 12px; text-transform:uppercase;">
+        Bem vindo à infoworks
+      </mark>
+      <br><br>
     </div>
     <div class="sectionText">
       <br><br><br>
@@ -86,39 +80,17 @@
       <br><br>
       Temos como objetivo agir como intermediários, simplificando os processos de pesquisa, orçamentação, integração, formação, reparação e manutenção de sistemas de tecnologia.
       <br><br>
-      <!-- Algumas das áreas mais notaveis de atividade: <br>
-      <ol style="text-align:left">
-        <li>
-          <p>Hardware:</p>
-          <ul>
-            <li>1</li>
-            <li>1</li>
-            <li>1</li>
-          </ul>
-        </li>
-        <li>
-          <p>Software:</p>
-          <ul>
-            <li>1</li>
-            <li>1</li>
-            <li>1</li>
-          </ul>
-        </li>
-        <li>
-          Eletrónica:
-        </li>
-      </ol> -->
     </div>
 
     <div class="parallax img2" id="atividade">
       <br>
       <mark style="background-color:white;padding: 0px 12px;text-transform:uppercase;">
-      A nossa atividade
+        A nossa atividade
       </mark>
       <br><br>
     </div>
     <div class="sectionLongText">
-        <br><br>
+      <br><br>
       Fornecemos <i><b style="color:rgba(180, 201, 255, 1);">soluções para problemas tecnológicos.</b></i>
       <br><br>
       Oferecemos uma vasta quantidade de <i><b style="color:rgba(180, 255, 211, 1);">serviços especializados</b></i> de software e hardware.
@@ -129,20 +101,18 @@
       <br><br>
       Deslocamo-nos ao <i><b style="color:rgba(198, 255, 180, 1);">domicílio </b></i>para resolução de problemas informáticos.
       <br><br>
-      <!-- Aceitamos também entregas por correio.
-      <br><br> -->
       Desenvolvemos soluções informáticas de diversas naturezas, incluindo websites, bases de dados, programas dedicados, aplicações para smartphone e tablet, armazenamento de dados, entre outros.
       <br><br>
       Contamos com diversos parceiros para alcançar a solução ideal de<i><b style="color:rgba(255, 207, 180, 1);"> qualquer problema.</b></i>
       <br><br>
       Recolhemos, orçamentamos e processamos reparações de natureza electrónica em <i><b style="color:rgba(255, 180, 246, 1);">laboratório especializado.</b></i>
-    <br><br>
+      <br><br>
     </div>
 
     <div class="parallax img3" id="loja">
       <br>
       <mark style="background-color:white;padding: 0px 12px;text-transform:uppercase;">
-      Compre Online
+        Compre Online
       </mark>
       <br><br>
     </div>
@@ -150,7 +120,7 @@
       <br>
       Brevemente poderá disfrutar de uma plataforma de compras online com a gama completa de produtos comercializados pela INFOWORKS.
       <br>
-       Imensas novidades e promoções estão à sua espera!
+      Imensas novidades e promoções estão à sua espera!
       <br><br>
     </div>
 
@@ -165,7 +135,6 @@
       <a class="navLink" style="text-transform:lowercase;border:1px solid rgba(12, 21, 44, 0.5)" href="mailto:geral@e-tdci.com">geral@infoworks.pt</a>
       <br><br>
       <a class="navLink" style="text-transform:lowercase;border:1px solid rgba(12, 21, 44, 0.5)" href="tel:+915322227">915322227</a>
-      <!-- <a class="navLink" href="tel:+915322227">915322227</a> -->
     </div>
     <div class="sectionText" style="font-size: 15px;display:flex;justify-content:space-around;width:100%;margin:0;padding: 30px 0;">
       Copyright © 2022 INFOWORKS - Todos os direitos reservados.
@@ -173,15 +142,13 @@
   </body>
 </html>
 <script type="text/javascript">
+  //end of page arrow disapear
   let arrow = document.getElementById("downarrowsvg");
   window.onscroll = function(ev) {
     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
       arrow.style.display="none";
-      // arrow.style.fill = "transparent";
-      console.log("end of page");
     }
     else {
-      console.log("more content below");
       arrow.style.display="flex";
     }
   };
